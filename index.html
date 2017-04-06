@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>多肉首页</title>
+<link href="CSS/CSS_Init.css" type="text/css" rel="stylesheet"/>
+<link href="CSS/slider.css" type="text/css" rel="stylesheet" />
+<link href="CSS/Style.css" type="text/css" rel="stylesheet"/>
+<script src="JS/sliderEffects.js"></script>
+<script src="JS/slider.js"></script>
+<script src="JS/jquery-2.1.1.min.js"></script>
+<script>
+ $(document).ready(function() {
+    var width=$(window).width();
+	var height=$(window).height();
+	$('#slider').css('width',width);
+});
+</script>
+</head>
+
+<body>
+  	<div class="Pictures">
+		<div id="slider" style=" height:600px ;margin: auto;">
+		   <img src="Images/1.jpg"  alt="Imagen Geo Totem" class="sliderImage" >   
+		</div>
+	</div>
+    
+    <div id="nav">
+     <ul>
+      <li><img src="Images/多肉项目Logo.png" width="50" height="50"></li>
+      <li><a href="#">首   页</a></li>
+      <li><a href="#">多肉科普</a></li>
+      <li><a href="#">多肉商城</a></li>
+      <li><a href="#">多肉社区</a></li>
+      <li><a href="#">个人中心</a></li>
+     </ul>
+     <hr />
+    </div>
+    
+    <div id="diliver">
+      <img src="Images/007.png" width="186" height="308">
+      
+    </div>
+</body>
+
+</html>

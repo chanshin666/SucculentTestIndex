@@ -1,0 +1,44 @@
+@charset "utf-8";
+body{
+	min-width:1300px;}
+a:hover{
+	color:#0C0;
+	text-decoration:overline;
+	}
+a{color:#C6BDC2;}
+.Pictures{
+	width:100%;
+	height:600px;
+	margin:0 auto;
+	}
+#nav{
+	width:100%;
+	position:relative;
+	margin-top:-42%;
+	}
+#nav hr{
+	opacity:0.25;
+	}
+#nav ul{
+	margin-left:30%;
+	display:inline-block;
+	clear:both;
+	}
+#nav ul li{
+	float:left;
+	margin-left:50px;
+	font-size:20px;
+	}
+#nav ul li img{
+	margin-left:-690%;
+	margin-top:-30%;
+	}
+##diliver{
+	width:100%;
+	height:auto;
+	}
+#diliver img{
+	clear:both;	
+	display:block;
+	margin-top:40%;
+	}

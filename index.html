@@ -1,46 +1,199 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>多肉首页</title>
-<link href="CSS/CSS_Init.css" type="text/css" rel="stylesheet"/>
-<link href="CSS/slider.css" type="text/css" rel="stylesheet" />
-<link href="CSS/Style.css" type="text/css" rel="stylesheet"/>
-<script src="JS/sliderEffects.js"></script>
-<script src="JS/slider.js"></script>
-<script src="JS/jquery-2.1.1.min.js"></script>
-<script>
- $(document).ready(function() {
-    var width=$(window).width();
-	var height=$(window).height();
-	$('#slider').css('width',width);
-});
-</script>
-</head>
-
-<body>
-  	<div class="Pictures">
-		<div id="slider" style=" height:600px ;margin: auto;">
-		   <img src="Images/1.jpg"  alt="Imagen Geo Totem" class="sliderImage" >   
-		</div>
-	</div>
-    
-    <div id="nav">
-     <ul>
-      <li><img src="Images/多肉项目Logo.png" width="50" height="50"></li>
-      <li><a href="#">首   页</a></li>
-      <li><a href="#">多肉科普</a></li>
-      <li><a href="#">多肉商城</a></li>
-      <li><a href="#">多肉社区</a></li>
-      <li><a href="#">个人中心</a></li>
-     </ul>
-     <hr />
-    </div>
-    
-    <div id="diliver">
-      <img src="Images/007.png" width="186" height="308">
-
-    </div>
-</body>
-
-</html>
+  <!doctype html>
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>多肉首页</title>
+   <link href="CSS/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+  <link href="CSS/CSS_Init.css" type="text/css" rel="stylesheet"/>
+  <link href="CSS/slider.css" type="text/css" rel="stylesheet" />
+  <link href="CSS/Style.css" type="text/css" rel="stylesheet"/>
+  <script src="JS/sliderEffects.js"></script>
+  <script src="JS/slider.js"></script>
+  <script src="JS/jquery-2.1.1.min.js"></script>
+  <script src="JS/bootstrap.min.js"></script>
+  <script>
+   $(document).ready(function() {
+      var width=$(window).width();
+      var height=$(window).height();
+      $('#slider').css('width',width);
+      $('#slider').css('height',height);
+  });
+  </script>
+  </head>
+  
+  <body>
+      <div id="nav">
+       <ul>
+        <li><img src="Images/多肉项目Logo.png" width="50" height="50"></li>
+        <li><a href="#">首   页</a></li>
+        <li><a href="#">多肉百科</a></li>
+        <li><a href="#">多肉商城</a></li>	
+        <li><a href="#">多肉社区</a></li>
+        <li><a href="#">个人中心</a></li>
+       </ul>
+       <hr />
+      </div>
+      
+      <div class="Pictures">
+          <div id="slider" style="margin: auto;">
+             <img src="Images/1.jpg"  alt="Imagen Geo Totem" class="sliderImage" >   
+          </div>
+      </div>
+      
+       <div class="split"></div>  
+      
+      <div id="diliver">
+        <img src="Images/007.png" width="186" height="308">
+        <div class="diliver_left">
+        <p>我的多肉</p>
+        <p>Lv . 30</p>
+        <br/>
+        <div class="progress progress-striped">
+	     <div class="progress-bar progress-bar-success" role="progressbar"
+		 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+		 style="width: 80%;">
+	     </div>
+        </div>
+     </div>
+        
+        <div class="diliver_right">
+         <a href="#"> <div class="Jingtianke">
+           <div class="kinds">
+             <p>景天科</p>
+           </div>
+           <img src="Images/多肉素材/景天科/霜之朝/ti242mg.jpg" width="490" height="280"/>
+          </div></a>
+          <a href="#"><div class="Fanxingke">
+          <div class="kinds">
+             <p>番杏科</p>
+           </div>
+           <img src="Images/多肉素材/番杏科/藻铃玉/575442d4gc8f6dbc90411&690.jpg" width="550" height="300"/>
+          </div></a>
+          <a href="#">
+           <div class="LookMoreKinds">
+            <div class=LookMoreKinds_txt>
+             <p>查看更多</p>
+            </div>
+            <div class="LookMoreKinds_img">
+             <img src="Images/景天科手绘.png" width="100" height="70"/>
+            </div>
+          </div> 
+          </a>      
+        <a href="#"> <div class="Xianrenzhangke">
+         <div class="kinds">
+             <p>仙人掌科</p>
+           </div>
+          <img src="Images/多肉素材/仙人掌科/绯花玉/ti4444mg.jpg" width="280" height="220"/>
+         </div></a>
+         <a href="#"><div class="Juke">
+         <div class="kinds">
+             <p>菊科</p>
+           </div>
+          <img src="Images/菊科xx.jpg" width="350" height="210"/>
+         </div></a>
+         <a href="#"><div class="Baiheke">
+         <div class="kinds">
+             <p>百合科</p>
+           </div>
+          <img src="Images/百合科冰灯玉露.jpg" width="450" height="200"/>
+         </div></a>
+      </div>      
+     </div>
+     
+      <div class="split_sale"></div>
+      
+     <div class="Shopping">
+      <div class="goodsframe">
+       <div class="goods">
+        <div class="goods_info">
+         <h1>景天科山地玫瑰</h1>
+         <p>RMB 30</p>
+        </div>
+        <a href="#"><img src="Images/商品1.jpg" width="100%" height="100%"/></a>
+       </div>
+       <div class="goods">
+        <div class="goods_info">
+         <h1>景天科山地玫瑰</h1>
+         <p>RMB 30</p>
+        </div>
+        <a href="#"><img src="Images/商品2.jpg" width="100%" height="100%"/></a>
+       </div>
+       <div class="goods">
+       <div class="goods_info">
+         <h1>景天科山地玫瑰</h1>
+         <p>RMB 30</p>
+        </div>
+        <a href="#"><img src="Images/商品3.jpg" width="100%" height="100%"/></a>
+       </div>
+        <div class="goods">
+        <div class="goods_info">
+         <h1>景天科山地玫瑰</h1>
+         <p>RMB 30</p>
+        </div>
+        <a href="#"><img src="Images/商品4.jpg" width="100%" height="100%"/></a>
+       </div>
+        <div class="goods">
+        <div class="goods_info">
+         <h1>景天科山地玫瑰</h1>
+         <p>RMB 30</p>
+        </div>
+        <a href="#"><img src="Images/商品5.jpg" width="100%" height="100%"/></a>
+       </div>
+        <div class="goods">
+        <div class="goods_info">
+         <h1>景天科山地玫瑰</h1>
+         <p>RMB 30</p>
+        </div>
+        <a href="#"><img src="Images/商品6.jpg" width="100%" height="100%"/></a>
+       </div>
+      </div>
+      <div class="flower_ring">
+       <img src="Images/ring.png" width="300" height="300"/>
+       <a href="#"><p>我要购买</p></a>
+      </div>
+     </div>
+     
+     <div class="foot">
+      <div class="foot_left">
+       <ol class="WebNavInfo">
+       <header><b>网站导航</b></header>
+        <li><a href="#">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+        <li><a href="#">多肉百科</a></li>
+        <li><a href="#">多肉商城</a></li>
+        <li><a href="#">多肉社区</a></li>
+        <li><a href="#">精彩活动</a></li>
+        <li><a href="#">个人中心</a></li>
+       </ol>
+       <ol class="WebNavInfo">
+       <header><b>友情链接</b></header>
+        <li><a href="#">二狗网</a></li>
+        <li><a href="#">军事网</a></li>
+        <li><a href="#">古建网</a></li>
+        <li><a href="#">宠物网</a></li>
+        <li><a href="#">百度百科</a></li>
+        <li><a href="http://www.jxnu.edu.cn" target="_blank">江西师范大学</a></li>
+       </ol>
+      </div>
+      <div class="foot_middle">
+        <img src="Images/008.png" width="500" height="223"/>
+        <div class="copyright">
+         <p> Powered By X3522 多肉项目团队</p>
+         <p>  CopyRight &copy; 2017 江西师范大学软件学院 All Rights Reserved</p>
+        </div>
+      </div>
+      <div class="foot_right">
+       <ol class="WebNavInfo">
+       <header><b>联系我们</b></header>
+        <li><a href="#">QQ：763225207</a></li>
+        <li><a href="#">Tel:15727637660</a></li>
+        <li><a href="#">Weibo:@蓝色彼岸花开</a></li>
+        <li><a href="#">WeChat：cx763225207</a></li>
+        <li><a href="#">Email:763225207@qq.com</a></li>
+        <li><a href="#">Address:江西师范大学软件学院</a></li>
+      </div>
+      <div class="foot_bottom">
+      </div>
+     </div>
+  </body>
+  
+  </html>
